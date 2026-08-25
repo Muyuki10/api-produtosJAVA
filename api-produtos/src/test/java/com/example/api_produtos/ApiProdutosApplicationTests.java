@@ -1,13 +1,13 @@
 package com.example.api_produtos;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class ApiProdutosApplicationTests {
+@SpringBootApplication
+public class ApiProdutosApplicationTests {
 
-	@Test
-	void contextLoads() {
+	public static void main(String[] args){
+		SpringApplication.run(ApiProdutosApplication.class, args);
 	}
 
 }
